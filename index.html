@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Charan Reddy | CSE Student & Frontend Developer</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;800&display=swap" rel="stylesheet"/>
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-logo">
+      <span>&lt;</span>Charan<span>/&gt;</span>
+    </div>
+
+    <!-- Hamburger for mobile -->
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#certifications">Certs</a></li>
+      <li><a href="#achievements">Wins</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <p class="hero-greeting">Hey there! 👋 I'm</p>
+      <h1 class="hero-name">Suggu V S S<br/>Charan Reddy</h1>
+
+      <!-- Typing animation text -->
+      <p class="hero-role">
+        I'm a <span id="typed-text"></span><span class="cursor">|</span>
+      </p>
+
+      <p class="hero-sub">
+        CSE Student @ LBRCE &nbsp;·&nbsp; Frontend Development Intern
+      </p>
+
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Let's Talk</a>
+      </div>
+
+      <!-- Social links -->
+      <div class="social-links">
+        <a href="https://github.com/" target="_blank" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" title="LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="https://twitter.com/" target="_blank" title="Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="mailto:charanreddysuggu84@gmail.com" title="Email">
+          <i class="fas fa-envelope"></i>
+        </a>
+      </div>
+    </div>
+
+    <!-- Decorative blob -->
+    <div class="hero-blob"></div>
+    <div class="scroll-down">
+      <a href="#about"><i class="fas fa-chevron-down"></i></a>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <h2 class="section-title fade-up">About Me</h2>
+      <div class="about-grid">
+
+        <div class="about-avatar fade-up">
+          <!-- Avatar placeholder with initials -->
+          <div class="avatar-box">CR</div>
+          <div class="avatar-tag">Frontend Dev Intern</div>
+        </div>
+
+        <div class="about-text fade-up">
+          <p>
+            I'm a 2nd year <strong>Computer Science Engineering student</strong> at
+            <strong>Lakireddy Bali Reddy College of Engineering (LBRCE), Mylavaram</strong>,
+            affiliated to JNTUK (Expected Graduation: 2028). Currently interning as a
+            <strong>Frontend Developer</strong>, I enjoy building clean, responsive web pages.
+          </p>
+          <p>
+            I have hands-on experience in <strong>HTML, CSS, JavaScript, Java, and MySQL</strong>,
+            along with a solid grasp of <strong>Data Structures &amp; Algorithms</strong>. I use
+            <strong>Git &amp; GitHub</strong> for version control on all my projects.
+          </p>
+          <p>
+            Outside of tech, I enjoy <strong>swimming, badminton, listening to music</strong>,
+            and exploring new digital trends.
+          </p>
+
+          <div class="about-info-grid">
+            <div class="info-item">
+              <span class="info-label">Name</span>
+              <span class="info-val">Charan Reddy</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">College</span>
+              <span class="info-val">LBRCE, Mylavaram</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Branch</span>
+              <span class="info-val">CSE (JNTUK)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Graduation</span>
+              <span class="info-val">2028 (Expected)</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Phone</span>
+              <span class="info-val">+91 9121417672</span>
+            </div>
+            <div class="info-item">
+              <span class="info-label">Location</span>
+              <span class="info-val">Vijayawada, AP</span>
+            </div>
+          </div>
+
+          <!-- Resume Download -->
+          <a href="resume.pdf" download class="btn btn-primary resume-btn">
+            <i class="fas fa-download"></i>&nbsp; Download Resume
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CERTIFICATIONS SECTION ========== -->
+  <section class="certifications section" id="certifications">
+    <div class="container">
+      <h2 class="section-title fade-up">Certifications</h2>
+      <p class="section-sub fade-up">Courses &amp; programs I've completed</p>
+
+      <div class="cert-grid fade-up">
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-certificate"></i></div>
+          <div class="cert-body">
+            <h3>ACM India – RCOS</h3>
+            <p>Research Opportunities in Computer Science · SRMAP</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-brain"></i></div>
+          <div class="cert-body">
+            <h3>Deep Learning for Developers</h3>
+            <p>Infosys Springboard</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-laptop-code"></i></div>
+          <div class="cert-body">
+            <h3>TCS iON Career Edge</h3>
+            <p>IT Primer – TCS iON</p>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-icon"><i class="fas fa-robot"></i></div>
+          <div class="cert-body">
+            <h3>ChatGPT Prompting</h3>
+            <p>Certification · Analytics Vidhya</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ACHIEVEMENTS SECTION ========== -->
+  <section class="achievements section" id="achievements">
+    <div class="container">
+      <h2 class="section-title fade-up">Achievements</h2>
+      <p class="section-sub fade-up">Competitions &amp; events I've participated in</p>
+
+      <div class="achieve-list fade-up">
+
+        <div class="achieve-item">
+          <span class="achieve-badge">🏆</span>
+          <div>
+            <strong>1st Stage Qualified — CODE WIZARDS</strong>
+            <p>SUPRAGNA 2K26 · Siddhartha University</p>
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-badge">🥈</span>
+          <div>
+            <strong>2nd Stage Qualified — UI-PROMPT</strong>
+            <p>SUNRISE 2K26 · NRI Institute of Technology</p>
+          </div>
+        </div>
+
+        <div class="achieve-item">
+          <span class="achieve-badge">🎯</span>
+          <div>
+            <strong>Finalist — Technical Quiz</strong>
+            <p>SITAR 2K26 · PVP Siddhartha Institute of Technology</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  <!-- ========== SKILLS SECTION ========== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <h2 class="section-title fade-up">Skills</h2>
+      <p class="section-sub fade-up">Technologies &amp; tools I work with</p>
+
+      <div class="skills-grid fade-up">
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <h3>HTML5</h3>
+          <p>Semantic markup, forms, accessibility</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <h3>CSS3</h3>
+          <p>Flexbox, Grid, animations, responsive design</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-js-square"></i></div>
+          <h3>JavaScript</h3>
+          <p>DOM manipulation, events, ES6+</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-java"></i></div>
+          <h3>Java</h3>
+          <p>OOP concepts, problem solving</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-code-branch"></i></div>
+          <h3>DSA</h3>
+          <p>Arrays, linked lists, sorting, searching</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-database"></i></div>
+          <h3>MySQL</h3>
+          <p>Queries, joins, database design</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+          <h3>Git & GitHub</h3>
+          <p>Version control, branches, pull requests</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-icon"><i class="fas fa-lightbulb"></i></div>
+          <h3>Problem Solving</h3>
+          <p>Logical thinking, competitive coding</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS SECTION ========== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <h2 class="section-title fade-up">Projects</h2>
+      <p class="section-sub fade-up">Things I've built during my internship</p>
+
+      <div class="projects-grid fade-up">
+
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-top">
+            <i class="fas fa-folder-open project-folder"></i>
+            <div class="project-links">
+              <a href="https://github.com/" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" target="_blank" title="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Portfolio Website</h3>
+          <p class="project-desc">
+            A personal portfolio website built with pure HTML, CSS, and JavaScript.
+            Features dark theme, smooth scrolling, typing animation, and full
+            mobile responsiveness. This is the project you're looking at right now!
+          </p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Placeholder Card 2 - students can fill this later -->
+        <div class="project-card project-coming">
+          <div class="project-top">
+            <i class="fas fa-folder-open project-folder"></i>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Coming Soon</h3>
+          <p class="project-desc">
+            Next project is in progress. Stay tuned — it'll be live soon!
+          </p>
+          <div class="project-tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JS</span>
+          </div>
+        </div>
+
+        <!-- Placeholder Card 3 -->
+        <div class="project-card project-coming">
+          <div class="project-top">
+            <i class="fas fa-folder-open project-folder"></i>
+            <div class="project-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <h3 class="project-title">Coming Soon</h3>
+          <p class="project-desc">
+            More projects are being worked on. Will be updated shortly.
+          </p>
+          <div class="project-tags">
+            <span>Java</span>
+            <span>DSA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT SECTION ========== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <h2 class="section-title fade-up">Contact Me</h2>
+      <p class="section-sub fade-up">
+        Have a project or internship opportunity? Let's connect!
+      </p>
+
+      <div class="contact-grid fade-up">
+
+        <!-- Left: contact info -->
+        <div class="contact-info">
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div>
+              <strong>Email</strong>
+              <a href="mailto:charanreddysuggu84@gmail.com">charanreddysuggu84@gmail.com</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <div>
+              <strong>Phone</strong>
+              <a href="tel:+919121417672">+91 9121417672</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <div>
+              <strong>Location</strong>
+              <span>Vijayawada, Andhra Pradesh</span>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-linkedin-in"></i>
+            <div>
+              <strong>LinkedIn</strong>
+              <a href="https://linkedin.com/" target="_blank">linkedin.com/in/charan</a>
+            </div>
+          </div>
+          <div class="contact-item">
+            <i class="fab fa-github"></i>
+            <div>
+              <strong>GitHub</strong>
+              <a href="https://github.com/" target="_blank">github.com/charan</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: contact form -->
+        <div class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" />
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message"></textarea>
+          </div>
+          <button class="btn btn-primary" id="send-btn" onclick="sendMessage()">
+            <i class="fas fa-paper-plane"></i>&nbsp; Send Message
+          </button>
+          <p id="form-feedback" class="form-feedback"></p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <p>Designed &amp; Built by <strong>Charan Reddy</strong></p>
+      <p class="footer-sub">LBRCE · CSE · Frontend Intern · 2026</p>
+      <div class="footer-socials">
+        <a href="https://github.com/" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
